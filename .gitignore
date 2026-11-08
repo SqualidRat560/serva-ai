@@ -1,0 +1,19 @@
+# data and secrets
+data/
+.env
+*.parquet
+powerbi/exports/*.csv
+# python
+__pycache__/
+.venv/
+.pytest_cache/
+# node
+node_modules/
+dist/
+# engine cache and raw-data exports for the hand check
+backend/cache/
+docs/answer_key/
+servaai_payload.tgz
+deploy/.vultr_deploy_key
+deploy/.vultr_deploy_key.pub
+servaai_code.tgz
